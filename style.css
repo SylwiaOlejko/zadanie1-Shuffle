@@ -1,29 +1,8 @@
 
 
-
-.all{
-    padding: 0 250px; 
-	min-width: 460px
-}
-.left-text{
-    position: relative;
-	float: left;
-	overflow: hidden;
-	width: 100%
-}
-.left-window{
-    position: relative;
-	float: left;
-	width: 230px;
-	right: 250px; /* 230 + 20 padding */
-	margin-left: -100%;
-	padding: 0 10px
-}
-
-.right-window{
-    position: relative;
-	float: left;
-	width: 230px;
-	margin-right: -250px; /* -230 - 20 padding */
-	padding: 0 10px
+left-text{
+    position: absolute;
+    left:auto;
+    width: 150px;
+    height: 120px;
 }
