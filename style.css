@@ -1,9 +1,6 @@
 
 
-.left-text{
-    position: absolute;
-    left:auto;
-    width: 150px;
-    height: 120px;
+body{
+
     color:rgba(0, 0, 255, 0.589);
 }
