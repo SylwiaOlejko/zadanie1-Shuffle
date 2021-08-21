@@ -11,9 +11,18 @@ body{
 
 .all{
     background-color:rgb(237, 239, 247) ;
+    text-align: center;
+    display: inline-block;
+    
+   
 }
 .left-text{
     float: left;
+    text-align: justify;
+    margin-left:20px;
+    font-size: 12px;
+    position:relative;
+    overflow: auto;
 }
 
 .color-lorem{
@@ -32,53 +41,62 @@ body{
 }
 
 .left-window{
-    
-
-    width: 100%;
-    background-color:rgb(232, 232, 234)
+    text-align:left;
+    font-size: 12px;
+}
+.left-window-up{
+    border:3px solid rgb(232, 233, 239);
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    left: 52%;
+    top: 15%;
+    right: 25%;
+    bottom: 90%;
 }
 
-.left-window-up{
-    border: solid 2px rgb(232, 232, 234);
-    border-radius: 4px;
-    border-top-width:5px;
-    display: flex;
-    float: right;
-    clear:both;
-    background-color:rgb(232, 232, 234)
-  }  
 
 .left-window-down{
-    border: solid 2px rgb(232, 232, 234);
-    border-radius: 4px;
-    border-top-width:5px;
-    display: flex;
-    float: right;
-    clear:both;
-    background-color:rgb(232, 232, 234)
-    
+    border:3px solid rgb(232, 233, 239);
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    left: 52%;
+    top: 40%;
+    right: 25%;
+    bottom: 50%;
+   
 }
 .right-window{
-    
-    width: 100%;
-    background-color:rgb(232, 232, 234)
+    text-align:left;
+    font-size: 12px;
+
 }
 .right-window-up{
-    border: solid 2px rgb(232, 232, 234);
-    border-radius: 4px;
-    border-top-width:5px;
-    display: flex;
-    float: right;
-    background-color:rgb(232, 232, 234)
+    border:3px solid rgb(232, 233, 239);
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    left: 70%;
+    top: 18%;
+    right: 25%;
+    bottom: 90%;
+  
+
 }
 
 .right-window-down{
-    border: solid 2px rgb(232, 232, 234);
-    border-radius: 4px;
-    border-top-width:5px;
-    display: flex;
-
-    float: right;
+    border:3px solid rgb(232, 233, 239);
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    left: 70%;
+    top: 43%;
+    right: 25%;
+    bottom: 50%;
     
-    background-color:rgb(232, 232, 234)
 }
